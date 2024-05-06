@@ -5,7 +5,7 @@ const Header = () => {
     <header className="py-4 px-6 absolute w-full z-10">
       <nav className="flex justify-between items-center">
         <div className="header_logo">
-         <span>Logo</span>
+         <span className='font-bold cursor-pointer text-cyan-800 '>Logo</span>
         </div>
         <div className="header_links">
           <ul className="flex items-center gap-4">
