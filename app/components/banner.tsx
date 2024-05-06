@@ -6,7 +6,7 @@ const Banner = () => {
       <div className="site_container mx-auto p-4 pt-40">
         <div className="banner_content pt-xxxl py-[400px]">
           <h1 className="text-7xl uppercase text-white mb-10  px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
-            The worldss first <br /> platform for tokenizing <br /> AI
+            The worlds first <br /> platform for tokenizing <br /> AI
             Blockchain projects
           </h1>
           <h3 className="text-xl font-bold text-[#A429FF]">
