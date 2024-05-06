@@ -2,10 +2,10 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-    <header className="py-4 px-6 absolute w-full z-10">
-      <nav className="flex justify-between items-center">
+    <header className="py-6  absolute w-full z-10 ">
+      <nav className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div className="header_logo">
-         <span className='font-bold cursor-pointer text-cyan-800 '>Logo</span>
+         <span className='font-bold cursor-pointer  '>Logo</span>
         </div>
         <div className="header_links">
           <ul className="flex items-center gap-4">
