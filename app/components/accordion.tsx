@@ -29,9 +29,9 @@ const Accordions = () => {
   const handleOpen = (value: number) => setOpen(open === value ? 0 : value);
 
   return (
-    <>
+    <div className='px-4 mx-auto lg:max-w-7xl md:items-center md:flex-col md:px-8 bg-slate-900' >
       <Accordion open={open === 1} icon={<Icon id={1} open={open} />} onClick={() => handleOpen(1)} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-        <AccordionHeader placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>What is Material <br/> Tailwind?</AccordionHeader>
+        <AccordionHeader placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>What is Material Tailwind?</AccordionHeader>
         <AccordionBody>
           we are not always in the position that we want to be at. we are constantly
           growing. we are constantly making mistakes. we are constantly trying to express
@@ -40,7 +40,7 @@ const Accordions = () => {
       </Accordion>
       <Accordion open={open === 2} icon={<Icon id={2} open={open} />} onClick={() => handleOpen(2)} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
         <AccordionHeader placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-          How to use Material<br/> Tailwind?
+          How to use Material Tailwind?
         </AccordionHeader>
         <AccordionBody>
           we are not always in the position that we want to be at. we are constantly
@@ -50,7 +50,7 @@ const Accordions = () => {
       </Accordion>
       <Accordion open={open === 3} icon={<Icon id={3} open={open} />} onClick={() => handleOpen(3)}  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
         <AccordionHeader  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-          What can I do with Material<br/> Tailwind?
+          What can I do with Material Tailwind?
         </AccordionHeader>
         <AccordionBody>
           we are not always in the position that we want to be at. we are constantly
@@ -58,7 +58,7 @@ const Accordions = () => {
           ourselves and actualize our dreams.
         </AccordionBody>
       </Accordion>
-    </>
+    </div>
   );
 };
 
